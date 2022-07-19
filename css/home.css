@@ -1,0 +1,53 @@
+.navbar  .list a{
+    
+    
+
+}
+
+.box{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: #597fac;
+}
+.box:hover  {
+   
+    background-color: #70a1ff ;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    transition: all 0.2;
+    -webkit-transition: all 0.2;
+    -moz-transition: all 0.2;
+    -ms-transition: all 0.2;
+    -o-transition: all 0.2;
+  
+}
+.towers{
+    width: 100%;
+}
+.towers .tit{
+   text-transform: capitalize;
+   font-size: 1.5rem;
+   font-weight: 600;
+   color: white;
+}
+.towers .btn_visit{
+  margin-bottom: 20px !important;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.towers .btn_visit:hover{
+    background-color: red;
+    outline: none;
+    border: none;
+}
+.towers .btn_visit a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: white;
+}
